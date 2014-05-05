@@ -91,7 +91,7 @@ puzzle07 =
 -- 
 -- How many possible answers are there?
 puzzle08 ::
-  Maybe Bool
+  Either Bool Bool
   -> Bool
 puzzle08 =
   todo
@@ -127,9 +127,10 @@ puzzle11 =
 
 -- | Puzzle 12.
 -- 
--- >>> puzzle12 [] == []
+-- >>> puzzle12 []
+-- []
 --
--- prop> puzzle12 [x] == [x]
+-- prop> let types :: Int; types = x in puzzle12 [x] == [x]
 --
 -- How many possible answers are there?
 puzzle12 ::
@@ -194,7 +195,7 @@ puzzle17 =
 
 -- | Puzzle 18.
 -- 
--- >>> puzzle18' (++) (:[]) 7 8
+-- >>> puzzle18 (++) (:[]) 7 8
 -- [7,8]
 --
 -- How many possible answers are there?
@@ -231,7 +232,7 @@ puzzle20 =
 -- How many possible answers are there?
 puzzle21 ::
   Functor f =>
-  a
+  b
   -> f a
   -> f b
 puzzle21 =
@@ -264,7 +265,7 @@ puzzle23 =
 -- How many possible answers are there?
 puzzle24 ::
   Monad f =>
-  (a -> f a)
+  (a -> f Bool)
   -> [a]
   -> f (Maybe a)
 puzzle24 =
