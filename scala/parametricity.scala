@@ -19,55 +19,55 @@ def todo[A]: A =
 // Puzzle 01.
 // 
 // How many possible answers are there?
-def puzzle1: Int => Int =
+def puzzle01: Int => Int =
   todo
 
 // Puzzle 02.
 // 
 // How many possible answers are there?
-def puzzle2: List[Boolean] => List[Boolean] =
+def puzzle02: List[Boolean] => List[Boolean] =
   todo
 
 // Puzzle 03.
 // 
 // How many possible answers are there?
-def puzzle3: Boolean Tuple2 Boolean =
+def puzzle03: Boolean Tuple2 Boolean =
   todo
 
 // Puzzle 04.
 // 
 // How many possible answers are there?
-def puzzle4: Boolean Either Boolean =
+def puzzle04: Boolean Either Boolean =
   todo
 
 // Puzzle 05.
 // 
 // How many possible answers are there?
-def puzzle5: Boolean Function1 Boolean =
+def puzzle05: Boolean Function1 Boolean =
   todo
 
 // Puzzle 06.
 // 
 // How many possible answers are there?
-def puzzle6: Option[Boolean] Function1 Boolean =
+def puzzle06: Option[Boolean] Function1 Boolean =
   todo
 
 // Puzzle 07.
 // 
 // How many possible answers are there?
-def puzzle7: Boolean Function1 Option[Boolean] =
+def puzzle07: Boolean Function1 Option[Boolean] =
   todo
 
 // Puzzle 08.
 // 
 // How many possible answers are there?
-def puzzle8: (Boolean Either Boolean) Function1 Boolean =
+def puzzle08: (Boolean Either Boolean) Function1 Boolean =
   todo
 
 // Puzzle 09.
 // 
 // How many possible answers are there?
-def puzzle9: Option[Boolean] Function1 Option[Boolean] =
+def puzzle09: Option[Boolean] Function1 Option[Boolean] =
   todo
 
 // Puzzle 10.
@@ -86,7 +86,8 @@ def puzzle11[A]: List[A] => List[A] =
 
 // Puzzle 12.
 // 
-// >>> puzzle12(Nil) == (Nil)
+// >>> puzzle12(Nil)
+// Nil
 //
 // prop> (x: Int) => puzzle12(List(x)) == List(x)
 //
