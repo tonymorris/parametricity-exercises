@@ -8,7 +8,7 @@ def todo[A]: A =
 // It starts off really easy. Do not be fooled by the initial ease -- it gets
 // harder. The goal is to fill out the functions with
 // *any type-checking implementation*. However, infinite recursion is not
-// allowed. An execption (also disallowed) is currently used as a place holder.
+// allowed. An exception (also disallowed) is currently used as a place holder.
 // Any tests (written in the comments) must pass. Tests are written in the
 // comments, preceded by either >>> or prop>.
 //
